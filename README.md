@@ -9,26 +9,33 @@ deep-convection scheme (YOG) into CESM/CAM using **FTorch**.
   a TorchScript forward pass (FTorch), preserving CAM data flow.
 
 
-## Repository structure
 
+## 🧩 Repository Structure
+
+```text
 FTorch_CAM_integration/
-├─ src/cam/ ← Modified CAM physics source files
-│ ├─ Phys_control.F90
-│ ├─ physpkg.F90
-│ ├─ yog_intr.F90
-│ ├─ nn_interface_CAM.F90
-│ ├─ nn_convection_flux.F90
-│ └─ nn_cf_net.F90
-├─ libraries/FTorch/
-│ └─ FTorch_cesm_interface.F90 ← Wrapper for FTorch model calls
-├─ docs/
-│ ├─ build_instructions.md
-│ └─ troubleshooting.md
-├─ examples/
-│ └─ user_nl_cam
-└─ README.md
-
-
+├── src/
+│   └── cam/                        # Modified CAM physics source files
+│       ├── Phys_control.F90
+│       ├── physpkg.F90
+│       ├── yog_intr.F90
+│       ├── nn_interface_CAM.F90
+│       ├── nn_convection_flux.F90
+│       └── nn_cf_net.F90
+│
+├── libraries/
+│   └── FTorch/
+│       └── FTorch_cesm_interface.F90   # Wrapper for FTorch model calls
+│
+├── docs/
+│   ├── build_instructions.md
+│   └── troubleshooting.md
+│
+├── examples/
+│   └── user_nl_cam
+│
+├── MODEL_CARD.md
+└── README.md
 
 ---
 
