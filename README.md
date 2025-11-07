@@ -1,4 +1,4 @@
-# CAM + FTorch Deep Convection (YOG) Integration
+# FTorch Deep Convection (YOG) Integration
 
 This repository documents and provides sources for integrating a PyTorch-based
 deep-convection scheme (YOG) into CESM/CAM using **FTorch**.
