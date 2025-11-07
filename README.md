@@ -10,7 +10,7 @@ deep-convection scheme (YOG) into CESM/CAM using **FTorch**.
 
 
 
-## 🧩 Repository Structure
+## Repository Structure
 
 ```text
 FTorch_CAM_integration/
